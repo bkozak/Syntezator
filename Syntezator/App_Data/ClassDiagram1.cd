@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Syntezator.Default">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAACAAAAAAAAIQAABIAAAAAQAQAAAAAIBAAA=</HashCode>
+      <FileName>Default.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Syntezator">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAABIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Syntezator.Master.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Klasy.MediaPlayer">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Klasy\MediaPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Klasy.Normalizacja">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAACAAAAAAAAABAAAQEAAAAAAAAAAAABQIA=</HashCode>
+      <FileName>Klasy\Normalizacja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Klasy.PlikWave">
+    <Position X="11.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgACEAAIAAAoAEAYoACAAAABAQAAQQDAAAAAEBAQAIA=</HashCode>
+      <FileName>Klasy\PlikWave.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Klasy.WaveIOFony">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAEACAAAAAAAAAwQAAAAQgAAAAAA=</HashCode>
+      <FileName>Klasy\WaveIOFony.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Klasy.WaveIOSlowa">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAEACAAAAAAAAAwQAAAAQgAAAAAA=</HashCode>
+      <FileName>Klasy\WaveIOSlowa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Skrypty.PodzialNaWyrazy">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skrypty\PodzialNaWyrazy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Skrypty.UsuwanieDuplikatow">
+    <Position X="6.25" Y="5.25" Width="1.75" />
+    <InheritanceLine Type="System.Object" FixedToPoint="true">
+      <Path>
+        <Point X="7.5" Y="4.312" />
+        <Point X="7.5" Y="4.625" />
+        <Point X="7.25" Y="4.625" />
+        <Point X="7.25" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Skrypty\UsuwanieDuplikatow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Syntezator.Skrypty.WaveToBinary">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAIAAEAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Skrypty\WaveToBinary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Web.UI.Page" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Object" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Web.UI.MasterPage" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

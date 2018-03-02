@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Syntezator.master.cs" Inherits="Syntezator.Syntezator" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+<style type="text/css">
+
+body {
+
+text-align: center;
+background-color: #808080;
+}
+
+#strona {
+
+background-image:url(http://s3.flog.pl/media/foto/5364879_widok-z-wysepki-w-okolicy-miasteczka-tribunj--chorwacja.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+width: 80%;
+height: 80%;
+padding-top: 10%;
+padding-bottom: 10%;
+color: white;
+
+text-align: center;
+
+margin: 5% auto auto auto;
+/*margin: 0 auto 0 auto;*/
+
+}
+
+</style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="calosc">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
