@@ -13,7 +13,6 @@ namespace Syntezator.Skrypty
         {
             try
             {
-
                 var d = new Dictionary<string, bool>();
                 StringBuilder b = new StringBuilder();
                 string[] a = v.Split(new char[] { ' ', ',', ';', '.' },
@@ -36,7 +35,6 @@ namespace Syntezator.Skrypty
             {
                 throw new Exception("Błąd podczas usuwania duplikatów");
             }
-
         }
     }
 }
