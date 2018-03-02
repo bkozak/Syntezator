@@ -20,8 +20,6 @@ namespace Syntezator.Skrypty
             {
                 throw ex;
             }
-            
-            
         }        
     }
 }
