@@ -48,7 +48,7 @@ namespace Syntezator
                 PlikWave PlikWave = new PlikWave();
                 Podziel.Podzial(textbox.Text);
 
-                PlikWave.czytaj();
+                PlikWave.Czytaj();
             }
             catch(Exception ex)
             {

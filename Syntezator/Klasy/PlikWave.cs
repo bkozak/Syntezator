@@ -89,8 +89,6 @@ namespace Syntezator.Klasy
                         reader.Close();
                         i++;
                     }
-
-                   
                 }
 
             }catch(Exception ex)
@@ -282,10 +280,8 @@ namespace Syntezator.Klasy
           
         public void ZamienNaTablice()
         {
-
             try
             {
-
                 int i = 0;
 
                 tablicaBajtow = new byte[ListaSlow.Count][];
@@ -321,9 +317,8 @@ namespace Syntezator.Klasy
             }//koniec catch
         }//koniec metody ZamienNaTablice
 
-        public void czytaj()
+        public void Czytaj()
         {
-            
             pobierStringa();
             PobierzDaneSlowa();
             SprawdzKolejnosc();
@@ -334,11 +329,8 @@ namespace Syntezator.Klasy
 
             try
             {
-               
                     MediaPlayer mPlayer = new MediaPlayer(DoPrzeczytania);
                     mPlayer.Play();
-               
-                
                 
             }catch(Exception)
             {
