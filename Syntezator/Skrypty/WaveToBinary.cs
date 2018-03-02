@@ -15,7 +15,6 @@ namespace Syntezator.Skrypty
        private SqlConnection _conn;
        private string NazwaPliku;
        private string sciezka;
-     
 
        public void DoBazy()
        {
@@ -23,6 +22,7 @@ namespace Syntezator.Skrypty
            string[] tablica = new string[34];
            tablica = Directory.GetFiles("c:/test/Głoski/nowe/ok4/");
            sciezka = "c:/test/Głoski/nowe/ok4/";
+
            try
            {
                _conn.Open();
@@ -38,8 +38,6 @@ namespace Syntezator.Skrypty
 
                    addEmp.Parameters.Add("@Fon", SqlDbType.NVarChar, 20).Value = NazwaPliku;
                    addEmp.Parameters.Add("@BLOB", SqlDbType.VarBinary).Value = bytes;
-
-
                    addEmp.ExecuteNonQuery();
                }
            }
@@ -51,12 +49,7 @@ namespace Syntezator.Skrypty
            finally
            {
                _conn.Close();
-              
            }
-           
-           
        }
-       
-        
     }
 }
